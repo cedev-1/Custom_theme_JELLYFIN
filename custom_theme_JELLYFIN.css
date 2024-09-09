@@ -1,6 +1,6 @@
 :root {
   --blur: 10px;
-  --op: 5px;
+  --op: 3px;
 }
 
 [dir=ltr] .selectArrowContainer{
@@ -41,10 +41,7 @@
   background-color: #10101000;
 }
 
-/*#####################################################################################################################
-            LAYOUT DESKTOP
-
-######################################################################################################################*/
+/*   LAYOUT DESKTOP */  
 
 html.preload.layout-desktop{
   background-color: #181818;
@@ -76,7 +73,8 @@ html.preload.layout-desktop{
 
 .layout-desktop .backgroundContainer {
   position: absolute;
-  background: url("https://raw.githubusercontent.com/alexyle/jellyfin-theme/main/glassmorphism/mask.png");
+  background : url("https://w.wallhaven.cc/full/nr/wallhaven-nrpkm7.png");
+  /* background: url("https://raw.githubusercontent.com/alexyle/jellyfin-theme/main/glassmorphism/mask.png"); */
   background-size: cover;
   margin-left: 20%;
   height: 100vh;
