@@ -1,0 +1,101 @@
+/* Fond blanc avec une image de film en arrière-plan */
+.backgroundContainer {
+    background-color: #ffffff; /* Fond blanc */
+    background-image: url('https://www.lebleudumiroir.fr/wp-content/uploads/2023/09/banniere.jpg'); /* Remplace par l'URL de ton image de fond */
+    background-size: cover;
+    background-position: center;
+}
+
+/* En-tête transparent */
+.skinHeader {
+    background-color: rgba(255, 255, 255, 0.8); /* Blanc transparent */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Boutons flottants avec ombre */
+.emby-button {
+    background-color: #ffffff;
+    color: #333; /* Couleur de texte */
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    padding: 10px 20px;
+    font-size: 16px;
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.emby-button:hover {
+    transform: translateY(-2px); /* Effet flottant */
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+}
+
+/* Grandes images de médias */
+.itemImage {
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    width: 100%;
+    max-width: 500px; /* Ajuste selon la taille souhaitée */
+    margin: 20px auto;
+}
+
+/* Cartes de contenu des médias avec bordure arrondie */
+.cardContent {
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin: 10px;
+}
+
+/* Texte principal en noir sur fond blanc */
+body, .mainContent {
+    color: #333;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #ffffff;
+}
+
+/* Réduction de l'opacité des éléments de navigation */
+.headerTabs.sectionTabs {
+    text-size-adjust: 110%;
+    font-size: 110%;
+    color: #333;
+    background-color: rgba(255, 255, 255, 0.8);
+}
+
+/* Modifier la couleur des icônes de l'en-tête */
+.headerButton {
+    color: #333;
+}
+
+/* Enlever les bords autour des images */
+.emby-image {
+    border: none;
+}
+
+/* Ajuster la barre de navigation */
+.mainDrawer-scrollContainer {
+    background-color: #ffffff;
+    color: #333;
+    box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Amélioration de l'apparence du formulaire de connexion */
+#loginPage {
+    background: url('URL_DE_TON_IMAGE_DE_FOND') no-repeat center center fixed;
+    background-size: cover;
+}
+
+#loginPage .readOnlyContent,
+#loginPage form {
+    max-width: 350px;
+    margin: auto;
+    background-color: rgba(255, 255, 255, 0.85);
+    border-radius: 10px;
+    padding: 30px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+#loginPage .raised.cancel.block.btnManual.emby-button,
+#loginPage .raised.cancel.block.btnForgotPassword.emby-button {
+    display: none; /* Masquer les boutons inutiles */
+}
