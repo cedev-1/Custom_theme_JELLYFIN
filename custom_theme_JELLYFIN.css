@@ -82,7 +82,7 @@ html.preload.layout-desktop{
 
 .layout-desktop .backgroundContainer {
   position: absolute;
-  background: url("https://raw.githubusercontent.com/alexyle/jellyfin-theme/main/glassmorphism/mask.png");
+  background: url("https://cdn.jsdelivr.net/gh/cedev-1/Custom_theme_JELLYFIN@main/back.png");
   background-size: cover;
   margin-left: 20%;
   height: 100vh;
